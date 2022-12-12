@@ -1,0 +1,39 @@
+.Hire {
+  position: relative;
+  bottom: 30px;
+  left: 30px;
+}
+
+/* main styling */
+.name {
+  margin-left: 50px;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.image {
+  display: flex;
+  flex: 1;
+  background-color: aliceblue;
+}
+.name > h2 {
+  font-family: var(--main_font);
+  font-size: 4em;
+  letter-spacing: 1px;
+}
+.main {
+  position: absolute;
+  top: 100px;
+  display: flex;
+}
+.last {
+  font-size: 4em;
+  font-weight: 500;
+}
+.last {
+  background-image: linear-gradient(130deg, #39df9e, #00747b);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
