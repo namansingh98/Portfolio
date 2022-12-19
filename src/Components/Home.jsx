@@ -1,25 +1,29 @@
+import { Button } from "@chakra-ui/react";
 import React from "react";
+import "./css/Home.css"
+
 
 export default function Main() {
   return (
-    <div className="main">
-      <div className="name">
-        <h2>
-          My name
-          <br /> is<b>Naman</b>{" "}
-        </h2>
-        <div>
-          <span className="last">Rathore </span>
+    <div>
+      <div className="container">
+        <div className="left">
+<span>
+          <h1>Hi. My name is <b> Naman</b>
+        <b>  <span>Rathore</span></b> </h1>
+         
+          </span>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem saepe mollitia quas placeat cum, molestiae delectus. Cumque est rerum voluptate </p>
+
         </div>
-       <div>
-        <p>
-          Lorem ipsum dolor, et ad a facilis eius blanditiis ratione esse repudiandae id in eum autem recusandae consectetur.
-        </p>
+          <div className="right">
+            <div className="exp">
+              <h4>1 year</h4>
+              <h5>experience</h5>
+            </div>
+          <img src="https://picsum.photos/200/150?grayscale"  alt="img"/>
         </div>
-      </div>
-      <div className="image">
-        <h2>lorem</h2>
-      </div>
+    </div>
     </div>
   );
 }

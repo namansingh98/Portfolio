@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 3rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  justify-content: center;
+  gap: 2rem;
+}
+.left > span {
+  font-size: 3em;
+  font-style: var(--main_font);
+  margin-left: 3rem;
+}
+
+.left p {
+  justify-content: center;
+  text-align: justify;
+  margin-left: 3rem;
+}
+
+
+
+
+/* right */
+.right {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  margin-right: 5rem;
+  position: relative;
+
+  gap: 2rem;
+}
+.exp {
+  position: absolute;
+  bottom: 0%;
+  background-color: orangered;
+  color: wheat;
+  padding: 10px;
+  border-radius: 10px 20px;
+  margin-left: -40px;
+}
+.exp h4 {
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: var(--main_font);
+}
+.exp h5 {
+  font-size: 1.3em;
+  font-weight: 700;
+  font-family: var(--main_font);
+}
