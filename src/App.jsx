@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar"
 import Home from './Components/Home'
 import '../src/index.css'
 import ShowCase from './Components/ShowCase'
+import Experience from './Components/Experience'
 function App() {
  
 
@@ -12,6 +13,7 @@ function App() {
     <Navbar/>
     <Home/>
     <ShowCase/>
+    <Experience/>
     </div>
   )
 }

@@ -22,7 +22,9 @@ export default function Main() {
               <h5>experience</h5>
             </div>
           <img src="https://picsum.photos/200/150?grayscale"  alt="img"/>
+          
         </div>
+
     </div>
     </div>
   );
