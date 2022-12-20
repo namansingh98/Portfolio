@@ -4,7 +4,10 @@ import Navbar from "./Components/Navbar"
 import Home from './Components/Home'
 import '../src/index.css'
 import ShowCase from './Components/ShowCase'
-import Experience from './Components/Experience'
+import Info from './Components/Info'
+import Footer from './Components/Footer'
+import Me from './Components/Me'
+
 function App() {
  
 
@@ -12,8 +15,11 @@ function App() {
     <div className="App">
     <Navbar/>
     <Home/>
+    <Me/>
     <ShowCase/>
-    <Experience/>
+    <Info/>
+    
+    <Footer/>
     </div>
   )
 }

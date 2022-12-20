@@ -4,9 +4,9 @@ import "./css/ShowCase.css";
 export default function ShowCase() {
   return (
     <div>
-      <div className="Showcase-Heading"> <h2>Some Case</h2></div>
+      {/* <div className="Showcase-Heading"> <h2>Some Case</h2></div> */}
         
-       <div className="container-s">
+       {/* <div className="container-s">
      
     <div className="box">
       <div className="img">
@@ -60,7 +60,7 @@ export default function ShowCase() {
         </div>
       </div>
     </div>
-  </div>
+  </div> */}
     </div>
   );
 }

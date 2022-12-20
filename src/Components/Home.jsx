@@ -13,7 +13,7 @@ export default function Main() {
         <b>  <span>Rathore</span></b> </h1>
          
           </span>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem saepe mollitia quas placeat cum, molestiae delectus. Cumque est rerum voluptate </p>
+          <p> I'm from Mathura (U.P).I design and build websites using the latest web design trends, user-friendly UX/UI, and innovative coding skills. I design and build websites using the latest web design trends, user-friendly UX/UI, and innovative coding skills.I design and build websites using the latest web design trends, user-friendly UX/UI, and innovative coding skills.</p>
 
         </div>
           <div className="right">

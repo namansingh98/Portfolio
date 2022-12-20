@@ -43,7 +43,7 @@
   color: wheat;
   padding: 10px;
   border-radius: 10px 20px;
-  margin-left: -40px;
+  margin-left: -40px;z-index: 100;
 }
 .exp h4 {
   font-size: 1.4em;

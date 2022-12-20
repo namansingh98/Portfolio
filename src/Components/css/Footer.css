@@ -1,0 +1,32 @@
+.footer {
+  /* background-color: black; */
+  /* color: black;   */
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+gap: 2rem;
+}
+
+.footer .btn {
+  width: 80px;
+  color: black;
+  margin-left: 20px;
+  height: 30px;
+  background-color: wheat;
+  text-align: center;
+  border-radius: 5px;
+}
+.footer .email_id {
+  margin-right: 10px;
+  /* color: white; */
+}
+
+.footer .git {
+  /* color: white; */
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.footer :placeholder-shown {
+  padding-left: 20px;border: 1px solid black;border-radius: 10px;height: 30px;
+}
