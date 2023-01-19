@@ -10,6 +10,7 @@
   .logo {
     display: block;
     padding: 8px 0;
+    
     img {
       display: block;
       margin: 8px auto;
@@ -17,7 +18,7 @@
       height: auto;
 
       &.sub-logo {
-        width: 50px;
+        width: 60px;margin: 0px;
       }
     }
   }

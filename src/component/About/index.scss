@@ -1,0 +1,62 @@
+.about {
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-58%);
+    width: 40%;
+    max-height: 90%;
+  }
+
+  h1 {
+    font-size: 53px;
+    margin: 0;
+    font-family: var(--thirdFont);
+    font-weight: 400;
+    color: var(--primaryColor);
+
+    &::before {
+      content: '<h1>';
+      font-family: var(--secondaryFont);
+      color: var(--primaryColor);
+      font-size: 18px;
+      position: absolute;
+      margin-top: -10px;
+      left: -10px;
+      opacity: 0.6;
+      line-height: 10px;
+    }
+    &::after {
+      content: '</h1>';
+      font-family: var(--secondaryFont);
+      font-size: 18px;
+      color: var(--primaryColor);
+      position: absolute;
+      line-height: 10px;
+      bottom: -20px;
+      left: -18px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
+    }
+  }
+}
+p {
+  font-size: 16px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  min-width: fit-content;
+  animation: pulse 1s;
+
+  &:nth-child(1) {
+    animation-delay: 1.5s;
+  }
+  &:nth-child(2) {
+    animation-delay: 1.6s;
+  }
+ 
+  }
+  .text-animate-hover {
+    &:hover {
+      color: #fff;
+    }
+}
