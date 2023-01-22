@@ -1,38 +1,18 @@
 import Layout from './component/Layout/Layout'
 import './App.scss'
 import Home from './component/Home'
-import { Routes,Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import About from './component/About'
 import Contact from './component/Contact'
-// import {
-//   Route,
-//   createBrowserRouter,
-//   createRoutesFromElements,
-//   RouterProvider,
-//   Router,
-// } from 'react-router-dom'
 
 function App() {
-  // const router = createBrowserRouter(
-  //   createRoutesFromElements(
-  //     <>
-  //       <Route exact path="/" element={<Layout/>} />
-       
-       
-  //     </>
-  //   )
-  // )
   return (
     <>
-      {/* <RouterProvider r outer={router} /> */}
-     
-     
-
       <Routes>
-        <Route path="/" element={<Layout/>}>
-        <Route index element={<Home/>}/>
-        <Route path='about' element={<About/>}/>
-        <Route path='contact' element={<Contact/>}/>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="About" element={<About />} />
+          <Route path="Contact" element={<Contact />} />
         </Route>
       </Routes>
     </>
@@ -40,6 +20,3 @@ function App() {
 }
 
 export default App
-
-
-

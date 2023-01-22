@@ -52,7 +52,7 @@ const Home = () => {
             id={25}
           />
         </h1>
-        <h2>Frontend Developer / UX/UI Designer</h2>
+        <h2 style={{color:'white'}}>Frontend Developer / UX/UI Designer</h2>
         <Link to="/contact" className="flat-button">
           Contact Me
         </Link>
