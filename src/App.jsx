@@ -3,7 +3,7 @@ import './App.scss'
 import Home from './component/Home'
 import { Routes, Route } from 'react-router-dom'
 import About from './component/About'
-import Contact from './component/Contact'
+import Contact from './component/contact'
 
 function App() {
   return (
