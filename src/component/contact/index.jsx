@@ -44,12 +44,8 @@ const sendEmail=(e)=>{
               idx={15}
             />
           </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-            veniam eaque excepturi omnis sint quod, reiciendis provident, ab
-            aperiam a tempore! Accusantium corporis amet ratione eos aliquam
-            mollitia saepe ipsam.
-
+          <p >
+          I am passionate about creating beautiful, functional websites that provide an amazing user experience. My goal is to build something amazing with you by combining my technical expertise and creative design skills.
           
           </p>
           <div className="form">
